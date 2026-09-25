@@ -1,0 +1,32 @@
+{
+    "model": "models/best.pt",
+    "dataset": "dataset/data.yaml",
+    "image_size": 640,
+    "confidence_threshold": 0.25,
+    "iou_threshold": 0.5,
+    "classes": {
+        "0": "monopole tower",
+        "1": "supporting tower"
+    },
+    "overall": {
+        "precision": 0.9464285714285714,
+        "recall": 1.0,
+        "f1_score": 0.9724770642201834,
+        "mAP50": 0.9801585485452762,
+        "mAP50_95": 0.7278624769368471
+    },
+    "per_class": {
+        "monopole tower": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "AP50": 0.995,
+            "AP50_95": 0.7013106060606061
+        },
+        "supporting tower": {
+            "precision": 0.8928571428571429,
+            "recall": 1.0,
+            "AP50": 0.9653170970905525,
+            "AP50_95": 0.7544143478130878
+        }
+    }
+}
