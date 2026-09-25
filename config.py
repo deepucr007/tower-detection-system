@@ -1,0 +1,3 @@
+MODEL_PATH = "models/best.pt"
+CONFIDENCE_THRESHOLD = 0.25
+IMAGE_SIZE = 640
