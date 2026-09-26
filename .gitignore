@@ -1,17 +1,13 @@
 venv/
 __pycache__/
 *.pyc
+*.cache
 
 runs/
 outputs/
-
-dataset/
 organiser_dataset/
 
 yolo11n.pt
-
 test.jpg
-test_pipeline.py
-test_quality.py
 
 .streamlit/secrets.toml
